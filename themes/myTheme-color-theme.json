@@ -42,7 +42,6 @@
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar
-
     "sideBar.background": "#27607c",
     "sideBar.foreground": "#eaf0f6",
     "sideBar.border": "#1e5271",
@@ -70,14 +69,41 @@
     "breadcrumb.focusForeground": "#ffffff",
     "breadcrumb.activeSelectionForeground": "#7fd1de",
 
-    // Panel
+    // Panel (área del terminal integrado)
     "panel.background": "#27607c",
-    "panel.border": "#516f9080",
-    "panelTitle.activeBorder": "#cbd6e2",
+    // "panel.border": "#516f9080",
+    "panel.border": "#1e5271",
+    "panelTitle.activeBorder": "#cbd6e2", // underliner
     "panelTitle.activeForeground": "#ffffff",
     "panelTitle.inactiveForeground": "#99acc2",
 
-    // Menu desplegable Bar
+    // Terminal
+    "terminal.selectionBackground": "#516f9099",
+    "terminal.background": "#1e5271",
+    "terminal.foreground": "#eaf0f6",
+    "terminalCursor.background": "#253342",
+    "terminalCursor.foreground": "#99acc2",
+    "terminal.ansiBlack": "#7c98b6",
+    "terminal.ansiRed": "#f2545b",
+    // "terminal.ansiGreen": "#25c082",
+    "terminal.ansiGreen": "#ff4c00", // zCoder@-
+    "terminal.ansiYellow": "#f5c26b",
+    // "terminal.ansiYellow": "#9d8d6c",
+    "terminal.ansiBlue": "#00a4bd",
+    "terminal.ansiMagenta": "#89DDFF",
+    "terminal.ansiCyan": "#ff8f59",
+    "terminal.ansiWhite": "#ffffff",
+    "terminal.ansiBrightBlack": "#7c98b6",
+    "terminal.ansiBrightRed": "#f2545b",
+    "terminal.ansiBrightGreen": "#04c87a",
+    // "terminal.ansiBrightYellow": "#f5c26b",
+    "terminal.ansiBrightYellow": "#9d8d6c",
+    "terminal.ansiBrightBlue": "#00a4bd",
+    "terminal.ansiBrightMagenta": "#89DDFF",
+    "terminal.ansiBrightCyan": "#ff8f59",
+    "terminal.ansiBrightWhite": "#ffffff",
+
+    // Barra Menu desplegable (Archivo, editar, selección, ver, ir, ejecutar, terminal, ayuda)
     "menu.background": "#1e5271",
     "menu.foreground": "#cbd6e2",
     "menu.selectionForeground": "#ffffff",
