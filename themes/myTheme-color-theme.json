@@ -4,7 +4,7 @@
     // Cobalt2 colors
     // "editor.background": "193049", // azul oscuro
     // "editor.background": "2d3e50", // azul grisaceo
-    // "editor.background": "27607c", // verde claro
+    // "editor.background": "27607c", // azul última versión
     // "editor.foreground": "#eeffff",
     // "sideBar.background": "#122738",
     // "sideBarTitle.foreground": "#ffffff",
@@ -22,7 +22,7 @@
     // "menubar.selectionBackground": "#0d3a58",
 
     // Canvas colors
-    "editor.background": "#27607c",
+    "editor.background": "#19658b",
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
@@ -120,8 +120,9 @@
 
     // selected Text colours
     // This is the standard Select colour
-    // "editor.selectionBackground": "#476b91",
-    "editor.selectionBackground": "#1e5271",
+    // "editor.selectionBackground": "#476b91", //v0
+    // "editor.selectionBackground": "#1e5271", //v1
+    "editor.selectionBackground": "#992630CE",
 
     // This is the colour of the other matching elements
     "editor.selectionHighlightBackground": "#0050A480",
