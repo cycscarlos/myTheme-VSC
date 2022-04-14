@@ -1,10 +1,10 @@
 {
   "name": "myTheme",
+  "author": "zCoder! -Carlos Colmenares A.",
   "colors": {
-    // Cobalt2 colors
-    // "editor.background": "193049", // deep blue (azul bien oscuro)
-    // "editor.background": "2d3e50", // deep blue (azul grisaceo bien oscuro)
-    // "editor.background": "27607c", // azul última versión
+    // base colors:
+    // "27607c" // azul claro (para el fondo principal)
+    // "1e5271" // azul +oscuro (para el resto, como laterales, top/bottom bar, terminal integrado, etc.)
 
     //: OWL theme definitions -start!
 
@@ -113,7 +113,7 @@
     "peekViewTitleDescription.foreground": "#697098",
     "peekViewTitleLabel.foreground": "#5f7e97",
     "merge.currentHeaderBackground": "#5f7e97",
-    "merge.incomingHeaderBackground": "#7e57c25a",    
+    "merge.incomingHeaderBackground": "#7e57c25a",
     "statusBar.border": "#1e5271",
     "statusBar.debuggingBorder": "#1F2330",
     "statusBar.noFolderBorder": "#25293A",
@@ -159,7 +159,7 @@
 
     //: OWL theme definitions -end!
 
-    // Canvas colors
+    // myTheme colors
     "editor.background": "#27607c",
     "editor.foreground": "#ffffff",
 
