@@ -2,8 +2,8 @@
   "name": "myTheme",
   "colors": {
     // Cobalt2 colors
-    // "editor.background": "193049", // azul oscuro
-    // "editor.background": "2d3e50", // azul grisaceo
+    // "editor.background": "193049", // deep blue (azul bien oscuro)
+    // "editor.background": "2d3e50", // deep blue (azul grisaceo bien oscuro)
     // "editor.background": "27607c", // azul última versión
 
     //: OWL theme definitions -start!
@@ -173,21 +173,21 @@
 
     // Activity Bar
     "activityBar.background": "#1e5271",
-    "activityBar.foreground": "#ffffff", // 1er icono
-    "activityBar.border": "#27607c",
-    "activityBar.inactiveForeground": "#99acc2", // resto de iconos
+    "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
+    "activityBar.border": "#27607c", // borde de la barra de iconos pegada a la izquierda
+    "activityBar.inactiveForeground": "#99acc2", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar (área lateral del explorarador: solo titulos de sección y menus de abajo)
-    "sideBar.background": "#27607c",
-    "sideBar.foreground": "#eaf0f6",
-    "sideBar.border": "#1e5271",
+    "sideBar.background": "#27607c", // background de la barra de carpetas y archivos
+    "sideBar.foreground": "#eaf0f6", // color de letra de las carpetas y archivos
+    "sideBar.border": "#1e5271", // borde de la barra de carpetas y archivos
     "sideBar.dropBackground": "#27607c",
     "sideBarTitle.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#27607c",
-    "sideBarSectionHeader.foreground": "#ffffff",
-    "sideBarSectionHeader.border": "#27607c",
+    "sideBarSectionHeader.background": "#27607c", // background de los titulos de secciones
+    "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
+    "sideBarSectionHeader.border": "#27607c", // borde de los titulos de secciones
 
     // Title Bar (top)
     "titleBar.activeBackground": "#1e5271",
