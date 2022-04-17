@@ -1,6 +1,7 @@
 {
     "name": "mi-propio-tema",
-    "displayName": "mi-propio-tema",
+    "author": "Carlos Colmenares a. -zCoder!",
+    "displayName": "zTheme",
     "description": "Mi propio tema para VSC",
     "version": "0.0.1",
     "engines": {

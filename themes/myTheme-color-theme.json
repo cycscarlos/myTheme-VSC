@@ -44,9 +44,9 @@
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
     // "tab.activeBackground": "#0b2942",
-    "tab.activeBackground": "#27607c", // pestaña activa
+    "tab.activeBackground": "#0a4664", // pestaña activa
     "tab.activeForeground": "#d2dee7",
-    "tab.border": "#27607c",
+    "tab.border": "#0a4664",
     "tab.activeBorder": "#1e5271",
     "tab.unfocusedActiveBorder": "#1e5271",
     // "tab.inactiveBackground": "#01111d",
@@ -76,7 +76,7 @@
     "editorError.foreground": "#EF5350",
     "editorWarning.foreground": "#b39554",
     // "editorGutter.background": "#011627",
-    "editorGutter.background": "#27607c", // barra lateral con los números
+    "editorGutter.background": "#0a4664", // barra lateral con los números
     "editorGutter.modifiedBackground": "#e2b93d", // línea vertical al lado de los números
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
@@ -160,39 +160,39 @@
     //: OWL theme definitions -end!
 
     // myTheme colors
-    "editor.background": "#27607c",
+    "editor.background": "#0a4664",
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
     "editorGroup.border": "#51122738",
     "editorGroup.dropBackground": "#516f9099",
-    "editorGroupHeader.noTabsBackground": "#27607c",
-    "editorGroupHeader.tabsBackground": "#27607c",
-    "editorGroup.emptyBackground": "#27607c",
+    "editorGroupHeader.noTabsBackground": "#0a4664",
+    "editorGroupHeader.tabsBackground": "#0a4664",
+    "editorGroup.emptyBackground": "#0a4664",
     "editorGroup.focusedEmptyBorder": "#7c98b6",
 
     // Activity Bar
     "activityBar.background": "#1e5271",
     "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
-    "activityBar.border": "#27607c", // borde de la barra de iconos pegada a la izquierda
+    "activityBar.border": "#0a4664", // borde de la barra de iconos pegada a la izquierda
     "activityBar.inactiveForeground": "#99acc2", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar (área lateral del explorarador: solo titulos de sección y menus de abajo)
-    "sideBar.background": "#27607c", // background de la barra de carpetas y archivos
+    "sideBar.background": "#0a4664", // background de la barra de carpetas y archivos
     "sideBar.foreground": "#eaf0f6", // color de letra de las carpetas y archivos
     "sideBar.border": "#1e5271", // borde de la barra de carpetas y archivos
-    "sideBar.dropBackground": "#27607c",
+    "sideBar.dropBackground": "#0a4664",
     "sideBarTitle.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#27607c", // background de los titulos de secciones
+    "sideBarSectionHeader.background": "#0a4664", // background de los titulos de secciones
     "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
-    "sideBarSectionHeader.border": "#27607c", // borde de los titulos de secciones
+    "sideBarSectionHeader.border": "#0a4664", // borde de los titulos de secciones
 
     // Title Bar (top)
     "titleBar.activeBackground": "#1e5271",
     "titleBar.activeForeground": "#ffffff",
-    "titleBar.inactiveBackground": "#27607c",
+    "titleBar.inactiveBackground": "#0a4664",
     "titleBar.inactiveForeground": "#99acc2",
 
     // Status Bar (bottom)
@@ -244,7 +244,7 @@
     "menu.background": "#1e5271",
     "menu.foreground": "#cbd6e2",
     "menu.selectionForeground": "#ffffff",
-    "menu.selectionBackground": "#27607c",
+    "menu.selectionBackground": "#0a4664",
     "menu.separatorBackground": "#99acc2",
 
     // contrast
