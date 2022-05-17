@@ -8,12 +8,14 @@
     // -----     |  -----   |  ----------          |  -----------
     // Original  |  27607c  |  editor.background   |  azul claro (fondo principal)
     // 27-4-2022 |  0a4664  |  editor.background   |  azul claro (fondo principal)
-    // 27-4-2022 |  1e5271  |  -varios-            |  azul más oscuro (resto: laterales, top/bottom bar, terminal integrado, etc.)
+    // 27-4-2022 |  1e5271  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
+    // 16-5-2022 |  103552  |  editor.background   |  azul súoer obscuro (fondo principal)
+    // 16-5-2022 |  0b273c  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
 
     //: OWL theme definitions -start!
 
     // "focusBorder": "#122d42",
-    "focusBorder": "#1e5271", // buscar/reemplazar
+    "focusBorder": "#0b273c", // buscar/reemplazar
     "foreground": "#d6deeb",
     "widget.shadow": "#011627",
     "selection.background": "#4373c2", // sombreado de textos seleccionados
@@ -43,18 +45,18 @@
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
     // "list.hoverBackground": "#011627",
-    "list.hoverBackground": "#1e5271", // sombreado sobre los archivos y carpetas en el arbol lateral
+    "list.hoverBackground": "#0b273c", // sombreado sobre los archivos y carpetas en el arbol lateral
     "list.hoverForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
     // "tab.activeBackground": "#0b2942",
-    "tab.activeBackground": "#27607c", // pestaña activa
+    "tab.activeBackground": "#103552", // pestaña activa
     "tab.activeForeground": "#d2dee7",
-    "tab.border": "#27607c",
-    "tab.activeBorder": "#1e5271",
-    "tab.unfocusedActiveBorder": "#1e5271",
+    "tab.border": "#103552",
+    "tab.activeBorder": "#0b273c",
+    "tab.unfocusedActiveBorder": "#0b273c",
     // "tab.inactiveBackground": "#01111d",
-    "tab.inactiveBackground": "#1e5271", // pestaña inactiva
+    "tab.inactiveBackground": "#0b273c", // pestaña inactiva
     "tab.inactiveForeground": "#5f7e97",
     "tab.unfocusedActiveForeground": "#5f7e97",
     "tab.unfocusedInactiveForeground": "#5f7e97",
@@ -80,7 +82,7 @@
     "editorError.foreground": "#EF5350",
     "editorWarning.foreground": "#b39554",
     // "editorGutter.background": "#011627",
-    "editorGutter.background": "#27607c", // barra lateral con los números
+    "editorGutter.background": "#103552", // barra lateral con los números
     "editorGutter.modifiedBackground": "#e2b93d", // línea vertical al lado de los números
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
@@ -89,7 +91,7 @@
     "diffEditor.removedTextBackground": "#ef535033",
     "diffEditor.removedTextBorder": "#ef53504d",
     // "editorWidget.background": "#021320", // widget buscar/reemplazar
-    "editorWidget.background": "#1e5271", // widget buscar/reemplazar
+    "editorWidget.background": "#0b273c", // widget buscar/reemplazar
     "editorWidget.border": "#5f7e97",
     "editorSuggestWidget.background": "#2C3043",
     "editorSuggestWidget.border": "#2B2F40",
@@ -97,7 +99,7 @@
     "editorSuggestWidget.highlightForeground": "#ffffff",
     "editorSuggestWidget.selectedBackground": "#5f7e97",
     // "editorHoverWidget.background": "#011627",
-    "editorHoverWidget.background": "#1e5271", // widget de información sobre el editor
+    "editorHoverWidget.background": "#0b273c", // widget de información sobre el editor
     "editorHoverWidget.border": "#5f7e97",
     "debugExceptionWidget.background": "#011627",
     "debugExceptionWidget.border": "#5f7e97",
@@ -118,7 +120,7 @@
     "peekViewTitleLabel.foreground": "#5f7e97",
     "merge.currentHeaderBackground": "#5f7e97",
     "merge.incomingHeaderBackground": "#7e57c25a",
-    "statusBar.border": "#1e5271",
+    "statusBar.border": "#0b273c",
     "statusBar.debuggingBorder": "#1F2330",
     "statusBar.noFolderBorder": "#25293A",
     "statusBarItem.activeBackground": "#202431",
@@ -164,43 +166,44 @@
     //: OWL theme definitions -end!
 
     // myTheme colors
-    "editor.background": "#27607c", // Azul oscuro
+    "editor.background": "#103552", // Azul oscuro
+    //"editor.background": "#103552", // Azul oscuro
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
     "editorGroup.border": "#51122738",
     "editorGroup.dropBackground": "#516f9099",
-    "editorGroupHeader.noTabsBackground": "#27607c",
-    "editorGroupHeader.tabsBackground": "#27607c",
-    "editorGroup.emptyBackground": "#27607c",
+    "editorGroupHeader.noTabsBackground": "#103552",
+    "editorGroupHeader.tabsBackground": "#103552",
+    "editorGroup.emptyBackground": "#103552",
     "editorGroup.focusedEmptyBorder": "#7c98b6",
 
     // Activity Bar
-    "activityBar.background": "#1e5271",
+    "activityBar.background": "#0b273c",
     "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
-    "activityBar.border": "#27607c", // borde de la barra de iconos pegada a la izquierda
+    "activityBar.border": "#103552", // borde de la barra de iconos pegada a la izquierda
     "activityBar.inactiveForeground": "#99acc2", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar (área lateral del explorarador: solo titulos de sección y menus de abajo)
-    "sideBar.background": "#27607c", // background de la barra de carpetas y archivos
+    "sideBar.background": "#103552", // background de la barra de carpetas y archivos
     "sideBar.foreground": "#eaf0f6", // color de letra de las carpetas y archivos
-    "sideBar.border": "#1e5271", // borde de la barra de carpetas y archivos
-    "sideBar.dropBackground": "#27607c",
+    "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
+    "sideBar.dropBackground": "#103552",
     "sideBarTitle.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#27607c", // background de los titulos de secciones
+    "sideBarSectionHeader.background": "#103552", // background de los titulos de secciones
     "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
-    "sideBarSectionHeader.border": "#27607c", // borde de los titulos de secciones
+    "sideBarSectionHeader.border": "#103552", // borde de los titulos de secciones
 
     // Title Bar (top)
-    "titleBar.activeBackground": "#1e5271",
+    "titleBar.activeBackground": "#0b273c",
     "titleBar.activeForeground": "#ffffff",
-    "titleBar.inactiveBackground": "#27607c",
+    "titleBar.inactiveBackground": "#103552",
     "titleBar.inactiveForeground": "#99acc2",
 
     // Status Bar (bottom)
-    "statusBar.background": "#1e5271",
+    "statusBar.background": "#0b273c",
     "statusBar.foreground": "#ffffff",
     "statusBar.debuggingBackground": "#f2545b",
     "statusBar.noFolderBackground": "#6a78d1",
@@ -212,7 +215,7 @@
     "breadcrumb.activeSelectionForeground": "#7fd1de",
 
     // Panel (área del terminal integrado)
-    "panel.background": "#1e5271", // color del área del términal integrado
+    "panel.background": "#0b273c", // color del área del términal integrado
     "panel.border": "#516f9080",
     "panelTitle.activeBorder": "#cbd6e2", // underliner
     "panelTitle.activeForeground": "#ffffff",
@@ -220,7 +223,7 @@
 
     // Terminal
     // "terminal.selectionBackground": "#516f9099",
-    // "terminal.background": "#1e5271",
+    // "terminal.background": "#0b273c",
     // "terminal.foreground": "#eaf0f6",
     // "terminalCursor.background": "#253342",
     // "terminalCursor.foreground": "#99acc2",
@@ -245,17 +248,17 @@
     // "terminal.ansiBrightWhite": "#ffffff",
 
     // Barra Menu desplegable (Archivo, editar, selección, ver, ir, ejecutar, terminal, ayuda)
-    "menu.background": "#1e5271",
+    "menu.background": "#0b273c",
     "menu.foreground": "#cbd6e2",
     "menu.selectionForeground": "#ffffff",
-    "menu.selectionBackground": "#27607c",
+    "menu.selectionBackground": "#103552",
     "menu.separatorBackground": "#99acc2",
 
     // contrast
     "contrastBorder": "#ffffff00",
 
     // dropdown
-    "dropdown.background": "#1e5271",
+    "dropdown.background": "#0b273c",
     "dropdown.border": "#15232d",
     "dropdown.foreground": "#fff",
 
@@ -268,12 +271,12 @@
 
     // Scrollbar
     "scrollbarSlider.activeBackground": "#cbd6e2cc",
-    "scrollbarSlider.background": "#1e5271",
+    "scrollbarSlider.background": "#0b273c",
     "scrollbarSlider.hoverBackground": "#cbd6e266",
 
     // Badges
     "badge.background": "#cbd6e2",
-    "badge.foreground": "#1e5271"
+    "badge.foreground": "#0b273c"
   },
   "tokenColors": [
     {
