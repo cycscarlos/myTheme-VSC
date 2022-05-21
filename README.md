@@ -6,7 +6,7 @@
 
 <br>
 
-![Website banner!](https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/./img/theme-banner.jpg)
+![Website banner!](https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/./img/theme-banner1.png)
 
 <br>
 
