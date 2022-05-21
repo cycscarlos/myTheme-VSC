@@ -1,4 +1,4 @@
-<h2>Modern, smooth and Elegant Visual Studio Code Theme for developers!</h2>
+<h2>Modern, smooth and Elegant Visual Studio Code Theme</h2>
 
 <br>
 
