@@ -1,10 +1,11 @@
 {
   "name": "my-own-theme",
-  "version": "0.0.1",
-  "author": "Carlos Colmenares A. zCoder",
-  "publisher": "Carlos Colmenares A. zCoder",
   "displayName": "zTheme",
+  "publisher": "Carlos Colmenares A. zCoder",
+  "author": "Carlos Colmenares A. zCoder",
+  "version": "0.0.1",
   "description": "Elegant, smooth and modern theme for VSCode",
+  "icon": "https://github.com/cycscarlos/myTheme-VSC/blob/main/img/icon.png?raw=true",
   "engines": {
     "vscode": "^1.66.0"
   },
@@ -20,7 +21,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "myTheme + Smooth Blue Theme",
+        "label": "zTheme Smooth Blue Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/myTheme-color-theme.json"
       }
