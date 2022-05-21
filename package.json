@@ -5,6 +5,7 @@
   "publisher": "Carlos Colmenares A. zCoder",
   "displayName": "zTheme",
   "description": "Elegant, smooth and modern theme for VSCode",
+  "icon": "https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/./img/icon.png",
   "engines": {
     "vscode": "^1.66.0"
   },
