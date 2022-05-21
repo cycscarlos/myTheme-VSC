@@ -1,13 +1,32 @@
-# README
-## This is the README for your extension "mi-propio-tema"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+<h2>Modern, smooth and Elegant Visual Studio Code Theme for developers!</h2>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<br>
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+<br>
+
+![Website banner!](./img/readme.jpg)
+
+<br>
+
+Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Carlos_Colmenares_A):
+
+<br>
+
+---
+
+<br>
+
+<h3>Its include the following features:</h3>
+
+<br>
+
+<ul>
+<li>A basis colors very useful for both; day & night</li>
+<li>Smooth blue as background editor</li>
+<li>A soft hard blue for the rest of other areas, like: taskbar, terminal and focuses elements</li>
+<li>A beatiful gold color for HTML & CSS classes</li>
+<li>Pleasant colors palete for javascript code</li>
+<li>A nice and clean icons set</li>
+</ul>
