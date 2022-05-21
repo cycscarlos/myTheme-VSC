@@ -6,7 +6,7 @@
 
 <br>
 
-![Website banner!](./img/readme.jpg)
+![Website banner!](https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/./img/readme.jpg)
 
 <br>
 
