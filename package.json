@@ -5,7 +5,6 @@
   "author": "Carlos Colmenares A. zCoder",
   "version": "1.0.0",
   "description": "Elegant, smooth and modern theme for VSCode",
-  "icon": "https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/img/icon.png",
   "engines": {
     "vscode": "^1.66.0"
   },
