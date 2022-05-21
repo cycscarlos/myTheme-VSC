@@ -10,7 +10,7 @@
 
 <br>
 
-Take a look at the website at the following link [Github Pages] (https://cycscarlos.github.io/Carlos_Colmenares_A):
+Take a briefly look about the Author at the following link [Github Pages] (https://cycscarlos.github.io/Carlos_Colmenares_A):
 
 <br>
 
@@ -23,10 +23,10 @@ Take a look at the website at the following link [Github Pages] (https://cycscar
 <br>
 
 <ul>
-<li>A basis colors very useful for both; day & night</li>
+<li>Smart palette colors for both: Day and Night</li>
 <li>Smooth blue as background editor</li>
-<li>A soft hard blue for the rest of other areas, like: taskbar, terminal and focuses elements</li>
-<li>A beatiful gold color for HTML & CSS classes</li>
-<li>Pleasant colors palete for javascript code</li>
+<li>A little hard blue for other areas, like: taskbar, terminal and focused elements, etc.</li>
+<li>A beautiful and elegant contrast gold color for HTML, CSS classes and some javascript items</li>
+<li>Pleasant palette colors for programming languages, like javascript</li>
 <li>A nice and clean icons set</li>
 </ul>
