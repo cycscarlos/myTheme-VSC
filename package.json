@@ -20,7 +20,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "zTheme Smooth Blue Theme",
+        "label": "zTheme Smooth Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/myTheme-color-theme.json"
       }

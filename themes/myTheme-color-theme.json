@@ -11,6 +11,8 @@
     // 27-4-2022 |  1e5271  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
     // 16-5-2022 |  103552  |  editor.background   |  azul súoer obscuro (fondo principal)
     // 16-5-2022 |  0b273c  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
+    // 24-6-2022 |  081620  |  editor.background   |  Anterior: 103552
+    // 25-6-2022 |  103552  |  editor.background   |  Anterior: 081620
 
     //: OWL theme definitions -start!
 
@@ -44,9 +46,10 @@
     "list.focusBackground": "#010d18",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
-    // "list.hoverBackground": "#011627",
-    "list.hoverBackground": "#0b273c", // sombreado sobre los archivos y carpetas en el arbol lateral
-    "list.hoverForeground": "#ffffff",
+    //! "list.hoverBackground": "#0b273c", // sombreado sobre los archivos y carpetas en el arbol lateral
+    "list.hoverBackground": "#011627",
+    //! "list.hoverForeground": "#ffffff",
+    "list.hoverForeground": "#9d8d6ccc",
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
     // "tab.activeBackground": "#0b2942",
@@ -187,7 +190,7 @@
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar (área lateral del explorarador: solo titulos de sección y menus de abajo)
-    
+
     "sideBar.background": "#103552", // background de la barra de carpetas y archivos
     "sideBar.foreground": "#eaf0f6", // color de letra de las carpetas y archivos
     "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
@@ -256,7 +259,7 @@
     "menu.separatorBackground": "#99acc2",
 
     // contrast
-    "contrastBorder": "#ffffff00",
+    "contrastBorder": "#ffffff00", // Borde superior del área del editor
 
     // dropdown
     "dropdown.background": "#0b273c",
@@ -267,7 +270,7 @@
     // This is the standard Select colour
     "editor.selectionBackground": "#992630CE",
 
-    // This is the colour of the other matching elements
+    //! This is the colour of the other matching elements
     "editor.selectionHighlightBackground": "#0050A480",
 
     // Scrollbar
