@@ -1,6 +1,6 @@
 {
   "name": "zTheme",
-  "author": "Carlos Colmenares A. zCoder",
+  "author": "Carlos Colmenares A. (alias zCoder)",
   "colors": {
     // Bitacora de colores.-
 
@@ -57,8 +57,8 @@
     // "tab.activeBackground": "#0b2942",
     "tab.activeBackground": "#1c3549", // pestaña activa
     "tab.activeForeground": "#d2dee7",
-    "tab.border": "#1c3549",
-    "tab.activeBorder": "#0b273c",
+    "tab.border": "#1f3b52",
+    "tab.activeBorder": "#0c9ac5",
     "tab.unfocusedActiveBorder": "#0b273c",
     // "tab.inactiveBackground": "#01111d",
     "tab.inactiveBackground": "#0b273c", // pestaña inactiva
@@ -185,7 +185,7 @@
 
     // Activity Bar
     "activityBar.background": "#0b273c",
-    "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
+    "activityBar.foreground": "#0c9ac5", // 1er icono de la barra iconos a la izquierda
     "activityBar.border": "#1c3549", // borde de la barra de iconos pegada a la izquierda
     "activityBar.inactiveForeground": "#99acc2", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
@@ -198,13 +198,13 @@
     "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
     "sideBar.dropBackground": "#1c3549",
     "sideBarTitle.foreground": "#ffffff",
-    "sideBarSectionHeader.background": "#1c3549", // background de los titulos de secciones
+    "sideBarSectionHeader.background": "#0b273c", // background de los titulos de secciones
     "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
     "sideBarSectionHeader.border": "#1c3549", // borde de los titulos de secciones
 
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
-    "titleBar.activeForeground": "#ffffff",
+    "titleBar.activeForeground": "#0c9ac5",
     "titleBar.inactiveBackground": "#1c3549",
     "titleBar.inactiveForeground": "#99acc2",
 

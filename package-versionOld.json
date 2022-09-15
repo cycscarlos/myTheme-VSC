@@ -8,15 +8,8 @@
   "engines": {
     "vscode": "^1.66.0"
   },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Customize",
-    "Professional"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["Theme", "Dark Theme", "Customize", "Professional"],
   "contributes": {
     "themes": [
       {
@@ -32,7 +25,7 @@
     },
     "main": "my-own-theme",
     "author": {
-      "name": "Carlos Colmenares A. (alias zCoder)"
+      "name": "Carlos Colmenares A. zCoder"
     }
   }
 }
