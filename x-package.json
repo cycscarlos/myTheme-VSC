@@ -8,16 +8,8 @@
   "engines": {
     "vscode": "^1.66.0"
   },
-  "icon": "icon.png",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Customize",
-    "Professional"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["Theme", "Dark Theme", "Customize", "Professional"],
   "contributes": {
     "themes": [
       {
