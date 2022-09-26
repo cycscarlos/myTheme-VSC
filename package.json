@@ -1,12 +1,16 @@
 {
   "name": "my-own-theme",
   "displayName": "zTheme",
-  "publisher": "Carlos Colmenares Alvarez",
-  "author": "Carlos Colmenares A. (alias zCoder)",
-  "version": "1.0.0",
   "description": "Elegant, and modern VSCode's theme",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.66.0"
+  },
+  "publisher": "Carlos Colmenares Alvarez",
+  "author": "Carlos Colmenares A. (alias zCoder)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cycscarlos/myTheme-VSC.git"
   },
   "icon": "icon.png",
   "categories": [
@@ -27,10 +31,6 @@
       }
     ],
     "homepage": "http://cycscarlos.github.io/myTheme-VSC",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/cycscarlos/myTheme-VSC.git"
-    },
     "main": "my-own-theme",
     "author": {
       "name": "Carlos Colmenares A. (alias zCoder)"
