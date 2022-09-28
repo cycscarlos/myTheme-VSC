@@ -7,7 +7,7 @@
 <br>
 
 <!-- ![Website banner!](https://github.com/cycscarlos/myTheme-VSC/raw/HEAD/./img/theme-banner.jpg) -->
-![zCoder Banner!](img/theme-banner.jpg)
+![zCoder Banner!](https://github.com/cycscarlos/myTheme-VSC/img/theme-banner.jpg)
 
 <br>
 
