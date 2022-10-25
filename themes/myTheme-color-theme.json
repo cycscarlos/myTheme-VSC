@@ -205,8 +205,8 @@
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
     "titleBar.activeForeground": "#0c9ac5",
-    "titleBar.inactiveBackground": "#1c3549",
-    "titleBar.inactiveForeground": "#99acc2",
+    // "titleBar.inactiveBackground": "#1c3549",
+    // "titleBar.inactiveForeground": "#99acc2",
 
     // Status Bar (bottom)
     "statusBar.background": "#0b273c",
