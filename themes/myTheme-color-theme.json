@@ -227,32 +227,6 @@
     "panelTitle.activeForeground": "#ffffff",
     "panelTitle.inactiveForeground": "#99acc2",
 
-    // Terminal
-    // "terminal.selectionBackground": "#516f9099",
-    // "terminal.background": "#0b273c",
-    // "terminal.foreground": "#eaf0f6",
-    // "terminalCursor.background": "#253342",
-    // "terminalCursor.foreground": "#99acc2",
-    // "terminal.ansiBlack": "#7c98b6",
-    // "terminal.ansiRed": "#f2545b",
-    // -->"terminal.ansiGreen": "#25c082",
-    // "terminal.ansiGreen": "#ff4c00", // zCoder@-
-    // "terminal.ansiYellow": "#f5c26b",
-    // -->"terminal.ansiYellow": "#9d8d6c",
-    // "terminal.ansiBlue": "#00a4bd",
-    // "terminal.ansiMagenta": "#89DDFF",
-    // "terminal.ansiCyan": "#ff8f59",
-    // "terminal.ansiWhite": "#ffffff",
-    // "terminal.ansiBrightBlack": "#7c98b6",
-    // "terminal.ansiBrightRed": "#f2545b",
-    // "terminal.ansiBrightGreen": "#04c87a",
-    // -->"terminal.ansiBrightYellow": "#f5c26b",
-    // "terminal.ansiBrightYellow": "#9d8d6c",
-    // "terminal.ansiBrightBlue": "#00a4bd",
-    // "terminal.ansiBrightMagenta": "#89DDFF",
-    // "terminal.ansiBrightCyan": "#ff8f59",
-    // "terminal.ansiBrightWhite": "#ffffff",
-
     // Barra Menu desplegable (Archivo, editar, selección, ver, ir, ejecutar, terminal, ayuda)
     "menu.background": "#0b273c",
     "menu.foreground": "#cbd6e2",
