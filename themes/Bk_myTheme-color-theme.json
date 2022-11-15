@@ -2,11 +2,23 @@
   "name": "zTheme",
   "author": "Carlos Colmenares A. (alias zCoder)",
   "colors": {
-    //* Bitacora.-
+    // Bitacora de colores.-
+
     // fecha     |  Color   |  Aplicación          |  Descripción
     // -----     |  -----   |  ----------          |  -----------
+    // Original  |  27607c  |  editor.background   |  azul claro (fondo principal)
+    // 27-4-2022 |  0a4664  |  editor.background   |  azul claro (fondo principal)
+    // 27-4-2022 |  1e5271  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
+    // 16-5-2022 |  103552  |  editor.background   |  azul súoer obscuro (fondo principal)
+    // 16-5-2022 |  0b273c  |  -el resto-          |  azul más oscuro (resto: laterales, top/bottom bar, terminal)
+    // 24-6-2022 |  081620  |  editor.background   |  Anterior: 103552
+    // 25-6-2022 |  103552  |  editor.background   |  Anterior: 081620
+    // 25-6-2022 |  294e6b  |  editor.background   |  Anterior: 103552
     // 12-8-2022 |  1c3549  |  editor.background   |  Anterior: 294e6b
-   
+
+    //: OWL theme definitions -start!
+
+    // "focusBorder": "#122d42",
     "focusBorder": "#0b273c", // buscar/reemplazar
     "foreground": "#d6deeb",
     "widget.shadow": "#011627",
@@ -36,19 +48,21 @@
     "list.focusBackground": "#010d18",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
-    "list.hoverBackground": "#011627", // sombreado sobre los archivos y carpetas en el arbol lateral
-    "list.hoverForeground": "#9d8d6c",
+    //* "list.hoverBackground": "#0b273c", // sombreado sobre los archivos y carpetas en el arbol lateral
+    "list.hoverBackground": "#011627",
+    //* "list.hoverForeground": "#ffffff",
+    "list.hoverForeground": "#9d8d6ccc",
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
-    "tab.activeBackground": "#0b273c", // pestaña activa
-    "tab.activeForeground": "#9d8d6c",
-    "tab.hoverBackground": "#011627", // new
-    "tab.hoverForeground": "#ffffff", // new
+    // "tab.activeBackground": "#0b2942",
+    "tab.activeBackground": "#1c3549", // pestaña activa
+    "tab.activeForeground": "#d2dee7",
     "tab.border": "#1f3b52",
-    "tab.activeBorder": "#ffffff",
+    "tab.activeBorder": "#0c9ac5",
     "tab.unfocusedActiveBorder": "#0b273c",
-    "tab.inactiveBackground": "#1c3549", // pestaña inactiva
-    "tab.inactiveForeground": "#92c5df",
+    // "tab.inactiveBackground": "#01111d",
+    "tab.inactiveBackground": "#0b273c", // pestaña inactiva
+    "tab.inactiveForeground": "#5f7e97",
     "tab.unfocusedActiveForeground": "#5f7e97",
     "tab.unfocusedInactiveForeground": "#5f7e97",
     "editorLineNumber.foreground": "#4b6479",
@@ -71,7 +85,8 @@
     "editorOverviewRuler.incomingContentForeground": "#7e57c2",
     "editorOverviewRuler.commonContentForeground": "#7e57c2",
     "editorError.foreground": "#EF5350",
-    "editorWarning.foreground": "#b39554",    
+    "editorWarning.foreground": "#b39554",
+    // "editorGutter.background": "#011627",
     "editorGutter.background": "#1c3549", // barra lateral con los números
     "editorGutter.modifiedBackground": "#e2b93d", // línea vertical al lado de los números
     "editorGutter.addedBackground": "#9CCC65",
@@ -79,14 +94,16 @@
     "diffEditor.insertedTextBackground": "#99b76d23",
     "diffEditor.insertedTextBorder": "#c5e47833",
     "diffEditor.removedTextBackground": "#ef535033",
-    "diffEditor.removedTextBorder": "#ef53504d",    
+    "diffEditor.removedTextBorder": "#ef53504d",
+    // "editorWidget.background": "#021320", // widget buscar/reemplazar
     "editorWidget.background": "#0b273c", // widget buscar/reemplazar
     "editorWidget.border": "#5f7e97",
     "editorSuggestWidget.background": "#2C3043",
     "editorSuggestWidget.border": "#2B2F40",
     "editorSuggestWidget.foreground": "#d6deeb",
     "editorSuggestWidget.highlightForeground": "#ffffff",
-    "editorSuggestWidget.selectedBackground": "#5f7e97",   
+    "editorSuggestWidget.selectedBackground": "#5f7e97",
+    // "editorHoverWidget.background": "#011627",
     "editorHoverWidget.background": "#0b273c", // widget de información sobre el editor
     "editorHoverWidget.border": "#5f7e97",
     "debugExceptionWidget.background": "#011627",
@@ -112,7 +129,7 @@
     "statusBar.debuggingBorder": "#1F2330",
     "statusBar.noFolderBorder": "#25293A",
     "statusBarItem.activeBackground": "#202431",
-    "statusBarItem.hoverBackground": "#9d8d6c60",
+    "statusBarItem.hoverBackground": "#202431",
     "notifications.background": "#01111d",
     "notifications.border": "#262a39",
     "notificationCenter.border": "#262a39",
@@ -131,8 +148,7 @@
     "terminal.ansiGreen": "#22da6e", // zCoder@-
     "terminal.ansiMagenta": "#C792EA",
     "terminal.ansiRed": "#EF5350", // resultado del Git status, despues del Add
-    // "terminal.ansiYellow": "#c5e478",
-    "terminal.ansiYellow": "#ffffff",
+    "terminal.ansiYellow": "#c5e478",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "#575656",
     "terminal.ansiBrightBlue": "#82AAFF",
@@ -150,10 +166,13 @@
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#c5e478ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
-    "gitDecoration.conflictingResourceForeground": "#ffeb95cc", 
+    "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
+
+    //: OWL theme definitions -end!
 
     // myTheme colors
     "editor.background": "#1c3549", // Azul oscuro
+    //"editor.background": "#1c3549", // Azul oscuro
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
@@ -165,16 +184,17 @@
     "editorGroup.focusedEmptyBorder": "#7c98b6",
 
     // Activity Bar
-    "activityBar.background": "#1c3549",
-    "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
+    "activityBar.background": "#0b273c",
+    "activityBar.foreground": "#0c9ac5", // 1er icono de la barra iconos a la izquierda
     "activityBar.border": "#1c3549", // borde de la barra de iconos pegada a la izquierda
-    "activityBar.inactiveForeground": "#9d8d6c80", // color de los iconos cuando nos están clickeados
+    "activityBar.inactiveForeground": "#99acc2", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
 
     // Sidebar (área lateral del explorarador: solo titulos de sección y menus de abajo)
-    "sideBar.background": "#0b273c", // background de la barra de carpetas y archivos
-    "sideBar.foreground": "#92c5df", // color de letra de las carpetas y archivos
+
+    "sideBar.background": "#1c3549", // background de la barra de carpetas y archivos
+    "sideBar.foreground": "#eaf0f6", // color de letra de las carpetas y archivos
     "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
     "sideBar.dropBackground": "#1c3549",
     "sideBarTitle.foreground": "#ffffff",
@@ -184,9 +204,9 @@
 
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
-    "titleBar.activeForeground": "#9d8d6c80",
-    "titleBar.inactiveBackground": "#990000",
-    "titleBar.inactiveForeground": "#ffffff",
+    "titleBar.activeForeground": "#0c9ac5",
+    // "titleBar.inactiveBackground": "#1c3549",
+    // "titleBar.inactiveForeground": "#99acc2",
 
     // Status Bar (bottom)
     "statusBar.background": "#0b273c",
@@ -201,8 +221,8 @@
     "breadcrumb.activeSelectionForeground": "#7fd1de",
 
     // Panel (área del terminal integrado)
-    "panel.background": "#1c3549", // color del área del términal integrado
-    "panel.border": "#1f3b52",
+    "panel.background": "#0b273c", // color del área del términal integrado
+    "panel.border": "#516f9080",
     "panelTitle.activeBorder": "#cbd6e2", // underliner
     "panelTitle.activeForeground": "#ffffff",
     "panelTitle.inactiveForeground": "#99acc2",
@@ -227,13 +247,12 @@
     "editor.selectionBackground": "#992630CE",
 
     //* This is the colour of the other matching elements
-    // "editor.selectionHighlightBackground": "#0050A480",
-    "editor.selectionHighlightBackground": "#990000",
+    "editor.selectionHighlightBackground": "#0050A480",
 
     // Scrollbar
     "scrollbarSlider.activeBackground": "#cbd6e2cc",
     "scrollbarSlider.background": "#0b273c",
-    "scrollbarSlider.hoverBackground": "#9d8d6c60",
+    "scrollbarSlider.hoverBackground": "#cbd6e266",
 
     // Badges
     "badge.background": "#cbd6e2",
