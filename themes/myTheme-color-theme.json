@@ -213,6 +213,8 @@
     "menu.selectionForeground": "#ffffff",
     "menu.selectionBackground": "#1c3549",
     "menu.separatorBackground": "#99acc2",
+    "menubar.selectionForeground": "#ffffff",
+    "menubar.selectionBackground": "#0b273c",
 
     // contrast
     "contrastBorder": "#ffffff00", // Borde superior del área del editor
