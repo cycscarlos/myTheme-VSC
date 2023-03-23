@@ -132,7 +132,8 @@
     "terminal.ansiMagenta": "#C792EA",
     "terminal.ansiRed": "#EF5350", // resultado del Git status, despues del Add
     // "terminal.ansiYellow": "#c5e478",
-    "terminal.ansiYellow": "#ffffff",
+    // "terminal.ansiYellow": "#ffffff", // path en el terminal integrado
+    "terminal.ansiYellow": "#92c5df50",
     "terminal.ansiBrightWhite": "#ffffff",
     "terminal.ansiBrightBlack": "#575656",
     "terminal.ansiBrightBlue": "#82AAFF",
@@ -246,7 +247,8 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#89DDFF"
+        // "foreground": "#89DDFF"
+        "foreground": "#92c5df50"
       }
     },
     {
@@ -401,7 +403,8 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6" // Atributos de las clases CSS
+        // "foreground": "#B2CCD6" // Atributos de las clases CSS
+        "foreground": "#ffffff" // Atributos de las clases CSS 18-02-2023
       }
     },
     {
@@ -562,7 +565,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F78C6C" // atributos de las clases CSS y JSON
+        "foreground": "#F78C6C" // atributos de las clases JSON
       }
     },
     {
@@ -580,7 +583,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#C17E70" // atributos de las clases CSS y JSON
+        "foreground": "#C17E70" // atributos de las clases JSON
       }
     },
     {
@@ -598,7 +601,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#f07178" // atributos de las clases CSS y JSON
+        "foreground": "#f07178" // atributos de las clases JSON
       }
     },
     {
