@@ -6,6 +6,7 @@
     // fecha     |  Color   |  Aplicación          |  Descripción
     // -----     |  -----   |  ----------          |  -----------
     // 12-8-2022 |  1c3549  |  editor.background   |  Anterior: 294e6b
+    // 06-5-2024 |  2e3440  |  editor.background   |  Anterior: 1c3549
 
     "focusBorder": "#0b273c", // buscar/reemplazar
     "foreground": "#d6deeb",
@@ -47,7 +48,7 @@
     "tab.border": "#1f3b52",
     "tab.activeBorder": "#ffffff",
     "tab.unfocusedActiveBorder": "#0b273c",
-    "tab.inactiveBackground": "#1c3549", // pestaña inactiva
+    "tab.inactiveBackground": "#2e3440", // pestaña inactiva
     "tab.inactiveForeground": "#92c5df",
     "tab.unfocusedActiveForeground": "#5f7e97",
     "tab.unfocusedInactiveForeground": "#5f7e97",
@@ -72,7 +73,7 @@
     "editorOverviewRuler.commonContentForeground": "#7e57c2",
     "editorError.foreground": "#EF5350",
     "editorWarning.foreground": "#b39554",
-    "editorGutter.background": "#1c3549", // barra lateral con los números
+    "editorGutter.background": "#2e3440", // barra lateral con los números
     "editorGutter.modifiedBackground": "#e2b93d", // línea vertical al lado de los números
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
@@ -154,21 +155,21 @@
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 
     // myTheme colors
-    "editor.background": "#1c3549", // Azul oscuro
+    "editor.background": "#2e3440", // Azul oscuro
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
     "editorGroup.border": "#51122738",
     "editorGroup.dropBackground": "#516f9099",
-    "editorGroupHeader.noTabsBackground": "#1c3549",
-    "editorGroupHeader.tabsBackground": "#1c3549",
-    "editorGroup.emptyBackground": "#1c3549",
+    "editorGroupHeader.noTabsBackground": "#2e3440",
+    "editorGroupHeader.tabsBackground": "#2e3440",
+    "editorGroup.emptyBackground": "#2e3440",
     "editorGroup.focusedEmptyBorder": "#7c98b6",
 
     // Activity Bar
-    "activityBar.background": "#1c3549",
+    "activityBar.background": "#2e3440",
     "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
-    "activityBar.border": "#1c3549", // borde de la barra de iconos pegada a la izquierda
+    "activityBar.border": "#2e3440", // borde de la barra de iconos pegada a la izquierda
     "activityBar.inactiveForeground": "#9d8d6c80", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
@@ -177,11 +178,11 @@
     "sideBar.background": "#0b273c", // background de la barra de carpetas y archivos
     "sideBar.foreground": "#92c5df", // color de letra de las carpetas y archivos
     "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
-    "sideBar.dropBackground": "#1c3549",
+    "sideBar.dropBackground": "#2e3440",
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#0b273c", // background de los titulos de secciones
     "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
-    "sideBarSectionHeader.border": "#1c3549", // borde de los titulos de secciones
+    "sideBarSectionHeader.border": "#2e3440", // borde de los titulos de secciones
 
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
@@ -202,7 +203,7 @@
     "breadcrumb.activeSelectionForeground": "#7fd1de",
 
     // Panel (área del terminal integrado)
-    "panel.background": "#1c3549", // color del área del términal integrado
+    "panel.background": "#2e3440", // color del área del términal integrado
     "panel.border": "#1f3b52",
     "panelTitle.activeBorder": "#cbd6e2", // underliner
     "panelTitle.activeForeground": "#ffffff",
@@ -212,7 +213,7 @@
     "menu.background": "#0b273c",
     "menu.foreground": "#cbd6e2",
     "menu.selectionForeground": "#ffffff",
-    "menu.selectionBackground": "#1c3549",
+    "menu.selectionBackground": "#2e3440",
     "menu.separatorBackground": "#99acc2",
     "menubar.selectionForeground": "#ffffff",
     "menubar.selectionBackground": "#0b273c",
