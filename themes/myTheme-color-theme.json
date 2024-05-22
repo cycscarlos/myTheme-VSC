@@ -6,7 +6,9 @@
     // fecha     |  Color   |  Aplicación          |  Descripción
     // -----     |  -----   |  ----------          |  -----------
     // 12-8-2022 |  1c3549  |  editor.background   |  Anterior: 294e6b
-    // 06-5-2024 |  2e3440  |  editor.background   |  Anterior: 1c3549
+    // 06-5-2023 |  2e3440  |  editor.background   |  Anterior: 1c3549
+    // 06-6-2023 |  1f2c36  |  editor.background   |  Anterior: 2e3440
+    // 21-5-2024 |  1c3549  |  editor.background   |  Anterior: 1f2c36
 
     "focusBorder": "#0b273c", // buscar/reemplazar
     "foreground": "#d6deeb",
