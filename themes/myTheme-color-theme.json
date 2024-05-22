@@ -48,7 +48,7 @@
     "tab.border": "#1f3b52",
     "tab.activeBorder": "#ffffff",
     "tab.unfocusedActiveBorder": "#0b273c",
-    "tab.inactiveBackground": "#2e3440", // pestaña inactiva
+    "tab.inactiveBackground": "#8e7cc3", // pestaña inactiva
     "tab.inactiveForeground": "#92c5df",
     "tab.unfocusedActiveForeground": "#5f7e97",
     "tab.unfocusedInactiveForeground": "#5f7e97",
@@ -75,7 +75,7 @@
     "editorOverviewRuler.commonContentForeground": "#7e57c2",
     "editorError.foreground": "#EF5350",
     "editorWarning.foreground": "#b39554",
-    "editorGutter.background": "#2e3440", // barra lateral con los números
+    "editorGutter.background": "#8e7cc3", // barra lateral con los números
     "editorGutter.modifiedBackground": "#e2b93d", // línea vertical al lado de los números
     "editorGutter.addedBackground": "#9CCC65",
     "editorGutter.deletedBackground": "#EF5350",
@@ -157,21 +157,21 @@
     "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
 
     // myTheme colors
-    "editor.background": "#2e3440", // Azul oscuro
+    "editor.background": "#8e7cc3", // Azul oscuro
     "editor.foreground": "#ffffff",
 
     // Groups/Tabs
     "editorGroup.border": "#51122738",
     "editorGroup.dropBackground": "#516f9099",
-    "editorGroupHeader.noTabsBackground": "#2e3440",
-    "editorGroupHeader.tabsBackground": "#2e3440",
-    "editorGroup.emptyBackground": "#2e3440",
+    "editorGroupHeader.noTabsBackground": "#8e7cc3",
+    "editorGroupHeader.tabsBackground": "#8e7cc3",
+    "editorGroup.emptyBackground": "#8e7cc3",
     "editorGroup.focusedEmptyBorder": "#7c98b6",
 
     // Activity Bar
-    "activityBar.background": "#2e3440",
+    "activityBar.background": "#8e7cc3",
     "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
-    "activityBar.border": "#2e3440", // borde de la barra de iconos pegada a la izquierda
+    "activityBar.border": "#8e7cc3", // borde de la barra de iconos pegada a la izquierda
     "activityBar.inactiveForeground": "#9d8d6c80", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
@@ -180,11 +180,11 @@
     "sideBar.background": "#0b273c", // background de la barra de carpetas y archivos
     "sideBar.foreground": "#92c5df", // color de letra de las carpetas y archivos
     "sideBar.border": "#0b273c", // borde de la barra de carpetas y archivos
-    "sideBar.dropBackground": "#2e3440",
+    "sideBar.dropBackground": "#8e7cc3",
     "sideBarTitle.foreground": "#ffffff",
     "sideBarSectionHeader.background": "#0b273c", // background de los titulos de secciones
     "sideBarSectionHeader.foreground": "#ffffff", // color de letra de los titulos de secciones
-    "sideBarSectionHeader.border": "#2e3440", // borde de los titulos de secciones
+    "sideBarSectionHeader.border": "#8e7cc3", // borde de los titulos de secciones
 
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
@@ -205,7 +205,7 @@
     "breadcrumb.activeSelectionForeground": "#7fd1de",
 
     // Panel (área del terminal integrado)
-    "panel.background": "#2e3440", // color del área del términal integrado
+    "panel.background": "#8e7cc3", // color del área del términal integrado
     "panel.border": "#1f3b52",
     "panelTitle.activeBorder": "#cbd6e2", // underliner
     "panelTitle.activeForeground": "#ffffff",
@@ -215,7 +215,7 @@
     "menu.background": "#0b273c",
     "menu.foreground": "#cbd6e2",
     "menu.selectionForeground": "#ffffff",
-    "menu.selectionBackground": "#2e3440",
+    "menu.selectionBackground": "#8e7cc3",
     "menu.separatorBackground": "#99acc2",
     "menubar.selectionForeground": "#ffffff",
     "menubar.selectionBackground": "#0b273c",
