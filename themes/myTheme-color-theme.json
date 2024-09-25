@@ -376,9 +376,8 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        // "foreground": "#9d8d6c" // Hasta 13-05-2023
-        // "foreground": "#9d8d6c80" // cadenas de texto
-        "foreground": "#9d8d6c" // cadenas de texto
+        // "foreground": "#9d8d6c80"
+        "foreground": "#f5f5f5" // cadenas de texto
       }
     },
     {
@@ -479,9 +478,8 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        // "foreground": "#9d8d6c" // Hasta 13-05-2023
-        // "foreground": "#9d8d6c80" // CSS clases
-        "foreground": "#9d8d6c" // CSS clases
+        // "foreground": "#9d8d6c80"
+        "foreground": "#f5f5f5" // CSS clases
       }
     },
     {
