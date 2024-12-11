@@ -10,7 +10,7 @@
   "author": "Carlos Colmenares A. (zCoder)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cycscarlos/myTheme-VSC.git"
+    "url": "https://github.com/cycscarlos/zTheme-1.0.0.git"
   },
   "icon": "icon.png",
   "categories": [
@@ -25,7 +25,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "zTheme Theme",
+        "label": "zTheme",
         "uiTheme": "vs-dark",
         "path": "./themes/myTheme-color-theme.json"
       }
@@ -33,7 +33,10 @@
     "homepage": "http://cycscarlos.github.io/myTheme-VSC",
     "main": "my-own-theme",
     "author": {
-      "name": "Carlos Colmenares A. (zCoder)"
+      "name": "Carlos Colmenares A."
     }
-  }
+  },
+    "activationEvents": [
+    "onTheme:zTheme"
+  ]
 }

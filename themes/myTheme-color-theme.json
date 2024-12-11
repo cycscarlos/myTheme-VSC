@@ -39,7 +39,7 @@
     "list.focusBackground": "#010d18",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
-    "list.hoverBackground": "#011627", // sombreado sobre los archivos y carpetas en el arbol lateral  
+    "list.hoverBackground": "#011627", // sombreado sobre los archivos y carpetas en el arbol lateral
     "list.hoverForeground": "#9d8d6c", // color del hover en los filenames en el arbol lateral
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
@@ -118,7 +118,8 @@
     "statusBar.debuggingBorder": "#1F2330",
     "statusBar.noFolderBorder": "#25293A",
     "statusBarItem.activeBackground": "#202431",
-    "statusBarItem.hoverBackground": "#9d8d6c60",
+    // "statusBarItem.hoverBackground": "#9d8d6c60",
+    "statusBarItem.hoverBackground": "#9d8d6c",
     "notifications.background": "#01111d",
     "notifications.border": "#262a39",
     "notificationCenter.border": "#262a39",
@@ -175,7 +176,8 @@
     "activityBar.background": "#1c3549",
     "activityBar.foreground": "#ffffff", // 1er icono de la barra iconos a la izquierda
     "activityBar.border": "#1c3549", // borde de la barra de iconos pegada a la izquierda
-    "activityBar.inactiveForeground": "#9d8d6c80", // color de los iconos cuando nos están clickeados
+    // "activityBar.inactiveForeground": "#9d8d6c80", // color de los iconos cuando nos están clickeados
+    "activityBar.inactiveForeground": "#9d8d6c", // color de los iconos cuando nos están clickeados
     "activityBarBadge.background": "#f2547d",
     "activityBarBadge.foreground": "#ffffff",
 
@@ -191,7 +193,8 @@
 
     // Title Bar (top)
     "titleBar.activeBackground": "#0b273c",
-    "titleBar.activeForeground": "#9d8d6c80",
+    // "titleBar.activeForeground": "#9d8d6c80",
+    "titleBar.activeForeground": "#9d8d6c",
     "titleBar.inactiveBackground": "#0b273c",
     "titleBar.inactiveForeground": "#ffffff",
 
@@ -241,7 +244,8 @@
     // Scrollbar
     "scrollbarSlider.activeBackground": "#cbd6e2cc",
     "scrollbarSlider.background": "#0b273c",
-    "scrollbarSlider.hoverBackground": "#9d8d6c60",
+    // "scrollbarSlider.hoverBackground": "#9d8d6c60",
+    "scrollbarSlider.hoverBackground": "#9d8d6c",
 
     // Badges
     "badge.background": "#cbd6e2",
@@ -372,6 +376,8 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
+        // "foreground": "#9d8d6c80"
+        // "foreground": "#f5f5f5"
         "foreground": "#9d8d6c" // cadenas de texto
       }
     },
@@ -473,6 +479,8 @@
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
+        // "foreground": "#9d8d6c80"
+        // "foreground": "#f5f5f5"
         "foreground": "#9d8d6c" // CSS clases
       }
     },
