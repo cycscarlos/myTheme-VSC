@@ -13,15 +13,8 @@
     "url": "https://github.com/cycscarlos/zTheme.git"
   },
   "icon": "icon.png",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Customize",
-    "Professional"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["Theme", "Dark Theme", "Customize", "Professional"],
   "contributes": {
     "themes": [
       {
@@ -35,5 +28,6 @@
     "author": {
       "name": "Carlos Colmenares A."
     }
-  }
+  },
+  "activationEvents": ["onTheme:zTheme"]
 }
