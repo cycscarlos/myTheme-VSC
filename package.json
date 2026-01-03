@@ -1,39 +1,41 @@
 {
-  "name": "my-own-theme",
-  "displayName": "zTheme",
-  "description": "Elegant, and modern VSCode theme",
-  "version": "1.0.0",
-  "engines": {
-    "vscode": "^1.66.0"
-  },
-  "publisher": "Carlos Colmenares Alvarez",
-  "author": "Carlos Colmenares A.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cycscarlos/myTheme-VSC.git"
-  },
-  "icon": "icon.png",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "Theme",
-    "Dark Theme",
-    "Customize",
-    "Professional"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "zTheme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/myTheme-color-theme.json"
-      }
-    ],
-    "homepage": "http://cycscarlos.github.io/myTheme-VSC",
-    "main": "my-own-theme",
-    "author": {
-      "name": "Carlos Colmenares A."
-    }
-  }
+	"name": "my-own-theme",
+	"displayName": "zTheme",
+	"description": "Elegant, and modern VSCode theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"publisher": "cycscarlos",
+	"author": {
+		"name": "Carlos Colmenares A.",
+		"url": "https://cycscarlos.github.io/Carlos_Colmenares_A"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cycscarlos/myTheme-VSC.git"
+	},
+	"homepage": "http://cycscarlos.github.io/myTheme-VSC",
+	"icon": "icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Customize",
+		"Professional",
+		"zTheme",
+		"Blue Theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "zTheme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/myTheme-color-theme.json"
+			}
+		]
+	}
 }
