@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "my-own-theme",
 	"displayName": "zTheme",
 	"description": "Elegant, and modern VSCode theme",
@@ -39,3 +40,43 @@
 		]
 	}
 }
+=======
+  "name": "my-own-theme",
+  "displayName": "zTheme",
+  "description": "Elegant, and modern VSCode theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "publisher": "Carlos Colmenares Alvarez",
+  "author": "Carlos Colmenares A.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cycscarlos/zTheme.git"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Customize",
+    "Professional"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zTheme Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/myTheme-color-theme.json"
+      }
+    ],
+    "homepage": "http://cycscarlos.github.io/myTheme-VSC",
+    "main": "my-own-theme",
+    "author": {
+      "name": "Carlos Colmenares A."
+    }
+  }
+}
+>>>>>>> fbc4e4d53d72775373fcc40e2242a918feccfb84
